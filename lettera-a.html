@@ -2,205 +2,156 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parole con la lettera A - Dizionario Alto-Vicentino</title>
-    <style>
-        body {
-            background-color: #fbf9f4;
-            color: #333333;
-            font-family: "Times New Roman", Times, serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #800000;
-            border-bottom: 2px solid #800000;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-        .torna-su {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #0000ee;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .mini-indice {
-            background-color: #f0ebe0;
-            padding: 15px;
-            border: 1px solid #dcd5c5;
-            border-radius: 4px;
-            margin-bottom: 30px;
-        }
-        .mini-indice ul {
-            list-style-type: none;
-            padding: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 8px;
-        }
-        .mini-indice a {
-            color: #0000ee;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .mini-indice a:hover {
-            text-decoration: underline;
-        }
-        .scheda-parola {
-            background: #ffffff;
-            padding: 25px;
-            border: 1px solid #e3dec3;
-            border-radius: 4px;
-            margin-bottom: 35px;
-        }
-        .scheda-parola h2 {
-            color: #800000;
-            margin-top: 0;
-            border-bottom: 1px dashed #dcd5c5;
-            padding-bottom: 5px;
-        }
-        .genere {
-            font-style: italic;
-            color: #666666;
-        }
-        .torna-mini-indice {
-            font-size: 0.9em;
-            color: #0000ee;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 10px;
-        }
-    </style>
 </head>
-<body>
+<body style="background-color: #fbf9f4; font-family: 'Times New Roman', serif; max-width: 700px; margin: 30px auto; padding: 20px; line-height: 1.6;">
 
-    <a href="index.html" class="torna-su">← Torna all'Indice Principale</a>
+    <a href="index.html" style="color: blue; text-decoration: none; font-weight: bold;">← Torna all'Indice Principale</a>
 
-    <h1>Parole che iniziano con la lettera A</h1>
+    <h1 style="color: maroon; border-bottom: 2px solid maroon;">Parole che iniziano con la lettera A</h1>
     
-    <div class="mini-indice">
-        <p><strong>Seleziona un termine per leggere il significato ed etimologia:</strong></p>
-        <ul>
-            <li><a href="#acoa">àcoa / àcoe</a></li>
-            <li><a href="#acoa-cota">àcoa còta / àcoe còte</a></li>
-            <li><a href="#a-gatomanjao">à gatomanjào</a></li>
-            <li><a href="#ajo">ajo</a></li>
-            <li><a href="#ala">ała / ałe</a></li>
-            <li><a href="#albio">albio / albi</a></li>
-            <li><a href="#amia">àmia / àmie</a></li>
-            <li><a href="#anpaxema">anpàxema / anpàxeme</a></li>
-            <li><a href="#ansiana">ansiàna / ansiàne</a></li>
-            <li><a href="#arbaro">àrbaro / àrbari</a></li>
-            <li><a href="#arfiare">arfiare</a></li>
-            <li><a href="#armelin">armełìn</a></li>
-            <li><a href="#arnia">àrnia / àrnie</a></li>
-            <li><a href="#arsipreso">arsiprèso / arsiprèsi</a></li>
-            <li><a href="#articioco">articiòco / articiòchi</a></li>
-            <li><a href="#ascante">ascànte / ascànti</a></li>
-            <li><a href="#ava">ava / ave</a></li>
-            <li><a href="#azanja">azànja / azànje</a></li>
-            <li><a href="#azanjon">azanjón / azanjùni</a></li>
-            <li><a href="#azare">àzare / àzari</a></li>
-        </ul>
+    <p><i>Clicca su un termine per saltare alla sua scheda:</i></p>
+    <ul>
+        <li><a href="#acoa">àcoa</a></li>
+        <li><a href="#acoacota">àcoa còta</a></li>
+        <li><a href="#gatomanjao">à gatomanjào</a></li>
+        <li><a href="#ajo">ajo</a></li>
+        <li><a href="#ala">ała</a></li>
+        <li><a href="#albio">albio</a></li>
+        <li><a href="#amia">àmia</a></li>
+        <li><a href="#anpaxema">anpàxema</a></li>
+        <li><a href="#ansiana">ansiàna</a></li>
+        <li><a href="#arbaro">àrbaro</a></li>
+        <li><a href="#arfiare">arfiare</a></li>
+        <li><a href="#armelin">armełìn</a></li>
+        <li><a href="#arnia">àrnia</a></li>
+        <li><a href="#arsipreso">arsiprèso</a></li>
+        <li><a href="#articioco">articiòco</a></li>
+        <li><a href="#ascante">ascànte</a></li>
+        <li><a href="#ava">ava</a></li>
+        <li><a href="#azanja">azànja</a></li>
+        <li><a href="#azanjon">azanjón</a></li>
+        <li><a href="#azare">àzare</a></li>
+    </ul>
+
+    <hr style="border: 1px solid #dcd5c5; margin: 40px 0;">
+
+    <!-- ELENCO SCHEDE -->
+
+    <div id="acoa" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ÀCOA, àcoe</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Acqua.</p>
+        <p><i>Etimologia:</i> Dal latino aqua. Notevole l'uso al genere maschile in specifici contesti locali.</p>
     </div>
 
-    <!-- SCHEDE VOCABOLI -->
-
-    <div class="scheda-parola" id="acoa">
-        <h2>ÀCOA, àcoe</h2>
-        <p><span class="genere">Sostantivo maschile</span> • <strong>Traduzione:</strong> Acqua.</p>
-        <p><strong>Etimologia e note:</strong> Dal latino <i>aqua</i>. Si nota il caratteristico uso al genere maschile in determinati contesti locali e l'indebolimento fonetico della consonante originale.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="acoacota" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ÀCOA CÒTA, àcoe còte</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Tisana.</p>
+        <p><i>Etimologia:</i> Letteralmente "acqua cotta", infuso caldo di erbe.</p>
     </div>
 
-    <div class="scheda-parola" id="acoa-cota">
-        <h2>ÀCOA CÒTA, àcoe còte</h2>
-        <p><span class="genere">Sostantivo femminile</span> • <strong>Traduzione:</strong> Tisana.</p>
-        <p><strong>Etimologia e note:</strong> Letteralmente "acqua cotta". Composto da <i>àcoa</i> e dal participio <i>còta</i> (con o aperta), indicante storicamente infusi caldi o rimedi casalinghi erboristici.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="gatomanjao" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">À GATOMANJÀO</h2>
+        <p><b>Locuzione avverbiale</b> • Traduzione: A quattro zampe.</p>
+        <p><i>Note:</i> Camminare carponi, tipico dei bambini.</p>
     </div>
 
-    <div class="scheda-parola" id="a-gatomanjao">
-        <h2>À GATOMANJÀO</h2>
-        <p><span class="genere">Locuzione avverbiale</span> • <strong>Traduzione:</strong> A quattro zampe.</p>
-        <p><strong>Etimologia e note:</strong> Espressione figurata locale utilizzata per descrivere il camminare carponi, tipico del movimento dei bambini piccoli o di azioni faticose.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="ajo" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">AJO</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Aglio.</p>
+        <p><i>Etimologia:</i> Dal latino alium.</p>
     </div>
 
-    <div class="scheda-parola" id="ajo">
-        <h2>AJO</h2>
-        <p><span class="genere">Sostantivo maschile</span> • <strong>Traduzione:</strong> Aglio.</p>
-        <p><strong>Etimologia e note:</strong> Dal latino <i>alium</i>, con la tipica evoluzione fonetica del nesso palatale riscontrabile nei dialetti veneti centro-settentrionali.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="ala" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">AŁA, ałe</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Ala.</p>
+        <p><i>Note:</i> Presenta la tipica "L" evanescente veneta (ł).</p>
     </div>
 
-    <div class="scheda-parola" id="ala">
-        <h2>AŁA, ałe</h2>
-        <p><span class="genere">Sostantivo femminile</span> • <strong>Traduzione:</strong> Ala.</p>
-        <p><strong>Etimologia e note:</strong> Dal latino <i>ala</i>. Presenta la tipica "L" evanescente o velare veneta (indicata graficamente con ł) che caratterizza la fonetica della zona.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="albio" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ALBIO, albi</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Mangiatoia del bestiame.</p>
+        <p><i>Note:</i> Dal latino alveus, sinonimo di grépia.</p>
     </div>
 
-    <div class="scheda-parola" id="albio">
-        <h2>ALBIO, albi</h2>
-        <p><span class="genere">Sostantivo maschile</span> • <strong>Traduzione:</strong> Mangiatoia del bestiame.</p>
-        <p><strong>Etimologia e note:</strong> Dal latino <i>alveus</i> (cavità, alveo, conca). Sinonimo locale del termine <i>grépia</i>.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="amia" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ÀMIA, àmie</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Zia.</p>
+        <p><i>Etimologia:</i> Dal latino tardo amita.</p>
     </div>
 
-    <div class="scheda-parola" id="amia">
-        <h2>ÀMIA, àmie</h2>
-        <p><span class="genere">Sostantivo femminile</span> • <strong>Traduzione:</strong> Zia.</p>
-        <p><strong>Etimologia e note:</strong> Voce di antica origine diffusa nell'area prealpina e alpina, derivante dal latino tardo <i>amita</i> (zia paterna).</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="anpaxema" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ANPÀXEMA, anpàxeme</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Alveare.</p>
+        <p><i>Note:</i> Termine arcaico legato all'apicoltura montana.</p>
     </div>
 
-    <div class="scheda-parola" id="anpaxema">
-        <h2>ANPÀXEMA, anpàxeme</h2>
-        <p><span class="genere">Sostantivo femminile</span> • <strong>Traduzione:</strong> Alveare.</p>
-        <p><strong>Etimologia e note:</strong> Termine arcaico molto interessante per indicare la dimora delle api, profondamente legato alle storiche tradizioni di apicoltura montana dell'Alto Vicentino.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="ansiana" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ANSIÀNA, ansiàne</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Genziana.</p>
+        <p><i>Note:</i> Fiore tipico dei pascoli delle prealpi vicentine.</p>
     </div>
 
-    <div class="scheda-parola" id="ansiana">
-        <h2>ANSIÀNA, ansiàne</h2>
-        <p><span class="genere">Sostantivo femminile</span> • <strong>Traduzione:</strong> Genziana.</p>
-        <p><strong>Etimologia e note:</strong> Adattamento fonetico e corruzione locale del termine botanico <i>genziana</i>, fiore caratteristico dei pascoli montani del Pasubio e delle Piccole Dolomiti.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="arbaro" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ÀRBARO, àrbari</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Albero.</p>
+        <p><i>Etimologia:</i> Dal latino arbor, con rotacismo tipico veneto.</p>
     </div>
 
-    <div class="scheda-parola" id="arbaro">
-        <h2>ÀRBARO, àrbari</h2>
-        <p><span class="genere">Sostantivo maschile</span> • <strong>Traduzione:</strong> Albero.</p>
-        <p><strong>Etimologia e note:</strong> Dal latino <i>arbor</i>, caratterizzato dallo scambio della consonante liquida (rotacismo) tipico di molte varianti dialettali vicentine.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="arfiare" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ARFIARE</h2>
+        <p><b>Verbo</b> • Traduzione: Respirare / prendere fiato.</p>
     </div>
 
-    <div class="scheda-parola" id="arfiare">
-        <h2>ARFIARE</h2>
-        <p><span class="genere">Verbo</span> • <strong>Traduzione:</strong> Respirare, prendere fiato.</p>
-        <p><strong>Etimologia e note:</strong> Derivato dalla radice di "fiato" (*fiatare*), con l'aggiunta del prefisso indicante l'azione del recupero delle forze o del respiro affannoso.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="armelin" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ARMEŁÌN, armełìn</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Albicocca.</p>
+        <p><i>Etimologia:</i> Dal latino armeniacum (prugna dell'Armenia).</p>
     </div>
 
-    <div class="scheda-parola" id="armelin">
-        <h2>ARMEŁÌN, armełìn</h2>
-        <p><span class="genere">Sostantivo maschile</span> • <strong>Traduzione:</strong> Albicocca / Albicocco.</p>
-        <p><strong>Etimologia e note:</strong> Dal latino <i>(prunus) armeniacum</i> (ossia prugna dell'Armenia), giunto storicamente nella lingua locale attraverso i secolari commerci della Repubblica di Venezia.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="arnia" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ÀRNIA, àrnie</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Arnia.</p>
     </div>
 
-    <div class="scheda-parola" id="arnia">
-        <h2>ÀRNIA, àrnie</h2>
-        <p><span class="genere">Sostantivo femminile</span> • <strong>Traduzione:</strong> Arnia.</p>
-        <p><strong>Etimologia e note:</strong> Conserva la radice italiana e latina per definire la singola struttura artificiale utilizzata per il ricovero delle api.</p>
-        <a href="#" class="torna-mini-indice">↑ Torna al mini-indice</a>
+    <div id="arsipreso" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ARSIPRÈSO, arsiprèsi</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Cipresso.</p>
     </div>
 
-    <div class="scheda-parola" id="arsipreso">
-        <h2>ARSIPRÈSO, arsiprèsi</h2>
-        <p><span class="genere">Sostantivo maschile</span> • <strong>Traduzione:</strong> Cipresso.</p>
-        <p><strong>Etimologia e note:</strong> Adattamento ed evoluzione popolare del termine arcaico *arcipresso*, impiegato localmente per identificare l'albero ornamentale.</p>
+    <div id="articioco" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ARTICIÒCO, articiòchi</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Carciofo.</p>
+        <p><i>Etimologia:</i> Dal francese antico artichaut.</p>
+    </div>
+
+    <div id="ascante" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ASCÀNTE, ascànti</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Frassino.</p>
+    </div>
+
+    <div id="ava" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">AVA, ave</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Ape.</p>
+        <p><i>Etimologia:</i> Dal latino apis.</p>
+    </div>
+
+    <div id="azanja" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">AZÀNJA, azànje</h2>
+        <p><b>Sostantivo femminile</b> • Traduzione: Lasagna / fettuccina.</p>
+        <p><i>Etimologia:</i> Dal latino lagana.</p>
+    </div>
+
+    <div id="azanjon" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">AZANJÓN, azanjùni</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Pappardella.</p>
+    </div>
+
+    <div id="azare" style="background: white; padding: 15px; border: 1px solid #ccc; margin-bottom: 20px;">
+        <h2 style="color: maroon; margin-top: 0;">ÀZARE, àzari</h2>
+        <p><b>Sostantivo maschile</b> • Traduzione: Larice.</p>
+        <p><i>Note:</i> Sinonimo di pìe de òca.</p>
+    </div>
+
+</body>
+</html>
